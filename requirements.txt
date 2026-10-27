@@ -1,0 +1,20 @@
+# Supported on Python 3.11 or 3.12. Install in a fresh virtual environment.
+# Version ranges keep the LangChain ecosystem on compatible major versions.
+langchain-core>=1.0,<2.0
+langchain-text-splitters>=1.0,<2.0
+langgraph>=1.0,<2.0
+langchain-google-genai>=4.0,<5.0
+langchain-ollama>=1.0,<2.0
+langchain-chroma>=1.0,<2.0
+langchain-huggingface>=1.0,<2.0
+chromadb>=1.0,<2.0
+sentence-transformers>=4.0,<6.0
+pypdf>=5.0,<7.0
+ddgs>=9.0,<10.0
+pandas>=2.2,<3.0
+beautifulsoup4>=4.12,<5.0
+requests>=2.32,<3.0
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.34,<1.0
+python-multipart>=0.0.20,<1.0
+python-dotenv>=1.0,<2.0

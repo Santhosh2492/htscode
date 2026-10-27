@@ -1,0 +1,19 @@
+chroma_db
+.venv
+__pycache__
+.env
+data.csv
+evaluation_results.csv
+tariff.pdf
+Dockerfile
+deploy_to_hf.py
+results.md
+test_data.csv
+
+# Local secrets and generated data
+.env
+.venv/
+__pycache__/
+*.py[cod]
+chroma_db/
+*.csv
