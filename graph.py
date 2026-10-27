@@ -77,6 +77,7 @@ def rag_node(state: GraphState):
     """Retrieve tariff passages if the local index exists; degrade gracefully otherwise."""
     item_desc = state["item_description"]
     db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
+    console.log('in graph.py')
     if not os.path.isdir(db_path):
         return {"rag_context": (
             "Local tariff index is not available. Add tariff.pdf to the project root and run "
